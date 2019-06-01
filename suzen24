@@ -2,4 +2,4 @@
 mkdir Music
 cp -r /home/suzen/Desktop/Music/* /home/suzen/Music
 ls
-
+echo "Flag is: $(ls | grep -0 '[0-9a - zA-Z]\{28\}')"
