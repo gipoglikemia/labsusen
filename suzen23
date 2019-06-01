@@ -5,4 +5,4 @@ mv nginx1.back.log nginx2.log.back
 mv nginx1.back.log nginx3.log.back
 mv nginx1.back.log nginx4.log.back
 mv nginx1.back.log nginx5.log.back
-echo "Flag is: $(ls | grep -0 '[0-9a - zA-Z]\{28\}')"
+
